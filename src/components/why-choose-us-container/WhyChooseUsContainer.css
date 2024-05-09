@@ -1,0 +1,16 @@
+.why-choose-us-container-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 64px 0 64px 0;
+    padding: var(--padding-page-properties);
+    color: var(--title-font-color);
+}
+
+.why-choose-us-container {
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+}

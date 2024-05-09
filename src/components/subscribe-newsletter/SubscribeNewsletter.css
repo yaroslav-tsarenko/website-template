@@ -1,0 +1,70 @@
+.newsletter-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--padding-page-properties);
+    margin: 128px 0 128px 0;
+}
+
+.newsletter-container {
+    max-width: 1536px;
+    width: 100%;
+    background: var(--additional-color);
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 360px;
+    border-radius: 8px;
+    flex-direction: column;
+}
+
+.newsletter-container h2 {
+    font-size: var(--font-36px-size);
+    font-weight: bold;
+    margin: 64px 0 32px 0;
+}
+
+.newsletter-container p {
+    text-align: center;
+    width: 822px;
+    height: 72px;
+    font-size: var(--font-16px-size);
+    font-weight: normal;
+}
+
+.newsletter-container section {
+    width: 602px;
+    display: flex;
+    margin: 0 0 64px 0;
+    justify-content: space-between;
+}
+
+.newsletter-container section input {
+    width: 446px;
+    border-radius: 8px;
+    padding: 16px 32px 16px 32px;
+    border: none;
+    outline: none;
+}
+
+.newsletter-container section input::placeholder {
+    font-size: var(--font-16px-size);
+}
+
+.newsletter-container section button {
+    height: 56px;
+    width: 140px;
+    border-radius: 8px;
+    border: none;
+    font-size: var(--font-16px-size);
+    margin: 0 0 0 16px;
+    background: var(--white-color);
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.newsletter-container section button:hover {
+    background: var(--white-color-hovered);
+    transition: 0.2s ease-in-out;
+}

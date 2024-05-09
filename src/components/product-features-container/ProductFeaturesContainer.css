@@ -1,0 +1,16 @@
+.product-features-container-wrapper {
+    display: flex;
+    margin: 128px 0 128px 0;
+    background: var(--secondary-color);
+    flex-direction: column;
+    text-align: center;
+    padding: 64px 192px 64px 192px;
+    color: var(--title-font-color);
+}
+
+.product-features-container {
+    margin: 64px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

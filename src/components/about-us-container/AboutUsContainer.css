@@ -1,0 +1,10 @@
+.about-us-wrapper {
+    display: flex;
+    padding: var(--padding-page-properties);
+}
+
+.about-us-wrapper h1{
+    margin: 64px 0 0 0;
+    text-align: center;
+    color: var(--white-color);
+}

@@ -1,0 +1,23 @@
+.faq-container-wrapper {
+    display: flex;
+    margin: 128px 0 128px 0;
+    background: var(--secondary-color);
+    padding: 64px 192px 64px 192px;
+    color: var(--title-font-color);
+    text-align: center;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.faq-container-wrapper h1 {
+    margin: 0;
+    padding: 0;
+    color: var(--title-font-color);
+    font-size: var(--font-36px-size);
+}
+
+.faq-container-content {
+    margin: 0 auto;
+    width: 900px;
+}

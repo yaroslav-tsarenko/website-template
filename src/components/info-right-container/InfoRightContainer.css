@@ -1,0 +1,12 @@
+.info-container-right-wrapper{
+    display: flex;
+    margin: 128px 0 128px 0;
+}
+
+.info-container-right-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--title-font-color);
+}
+

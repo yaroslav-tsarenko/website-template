@@ -1,0 +1,20 @@
+.credit-container-listing-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 50px 0;
+    color: var(--title-font-color);
+    padding: var(--padding-page-properties);
+}
+
+.credit-container-listing-wrapper h1{
+}
+
+.credit-container-listing-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
