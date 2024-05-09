@@ -1,0 +1,93 @@
+.about-us-container-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin: 164px 0 264px 0;
+    text-align: center;
+    padding: var(--padding-page-properties);
+    color: var(--title-font-color);
+}
+
+.about-us-container-content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 656px;
+    width: 656px;
+}
+
+.about-us-container-content section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us-container-content section input{
+    display: flex;
+    padding: 16px 0 16px 32px;
+    width: 280px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+
+.about-us-container-content section input::placeholder{
+    color: var(--light-text-font-color);
+    font-size: var(--font-16px-size);
+    font-weight: normal;
+}
+
+.about-us-container-content input{
+    display: flex;
+    padding: 16px 0 16px 32px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+
+.about-us-container-content input::placeholder{
+    color: var(--light-text-font-color);
+    font-size: var(--font-16px-size);
+    font-weight: normal;
+}
+
+.about-us-container-content textarea{
+    display: flex;
+    padding: 16px 0 16px 32px;
+    border: none;
+    outline: none;
+    height: 100px;
+    border-radius: 8px;
+}
+
+.about-us-container-content textarea::placeholder{
+    color: var(--light-text-font-color);
+    font-size: var(--font-16px-size);
+    font-weight: normal;
+}
+
+.about-us-container-content button{
+    display: flex;
+    color: var(--dark-text-font-color);
+    background: var(--additional-color);
+    padding: 16px 0 16px 0;
+    border: none;
+    font-size: var(--font-16px-size);
+    border-radius: 8px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.about-us-container-content button:hover{
+    background: var(--additional-color-hovered);
+}
+
+
+
+
+

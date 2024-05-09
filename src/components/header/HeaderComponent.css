@@ -1,0 +1,87 @@
+.header-container-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--padding-page-properties);
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: var(--title-font-color);
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 530px;
+}
+
+.header-links{
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+    color: var(--title-font-color);
+}
+
+.header-links:hover{
+    transition: 0.2s ease-in-out;
+    color: var(--additional-color);
+}
+
+.header-nav p{
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.header-nav p:hover{
+    transition: 0.2s ease-in-out;
+    color: var(--additional-color);
+}
+
+.header-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 220px;
+}
+
+.log-in-button{
+    background: none;
+    color: var(--title-font-color);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    font-size: var(--header-buttons-font-size);
+}
+
+.log-in-button:hover{
+    transition: 0.2s ease-in-out;
+    background: var(--secondary-color-hovered);
+    color: var(--title-font-color);
+}
+
+.sign-up-button{
+    background: var(--additional-color);
+    color: var(--dark-text-font-color);
+    border: none;
+    font-size: var(--header-buttons-font-size);
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.sign-up-button:hover{
+    transition: 0.2s ease-in-out;
+    background: var(--additional-color);
+    color: var(--title-font-color);
+}
+
+.header-icon{
+    cursor: pointer;
+}

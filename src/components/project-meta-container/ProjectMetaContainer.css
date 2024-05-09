@@ -1,0 +1,11 @@
+.project-meta-container-wrapper {
+    display: flex;
+    margin: 64px 0 64px 0;
+    padding: var(--padding-page-properties);
+}
+
+.project-meta-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}

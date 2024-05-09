@@ -1,0 +1,61 @@
+.credit-container-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 50px 0 50px 0;
+}
+
+.credit-container-frame{
+    background: url("../../assets/images/credit-frame.svg") no-repeat;
+    width: 350px;
+    height: 220px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.credit-container-frame h1{
+    font-size: var(--font-big-size);
+    font-weight: bold;
+    color: var(--title-font-color);
+}
+
+.credit-container-credentials{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 109px 0 109px;
+}
+
+.credit-container-credentials h2{
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--title-font-color);
+}
+
+.credit-container-credentials h4{
+    font-size: var(--font-14px-size);
+    font-weight: normal;
+    padding: 0;
+    margin: 0 0 30px 0;
+    color: var(--additional-color);
+}
+
+.credit-container-credentials button{
+    font-weight: bold;
+    color: var(--dark-text-font-color);
+    text-decoration: none;
+    border: none;
+    padding: 16px 32px 16px 32px;
+    border-radius: 9px;
+    text-align: center;
+    cursor: pointer;
+    background: var(--additional-color);
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    transition: 0.2s ease-in-out;
+}

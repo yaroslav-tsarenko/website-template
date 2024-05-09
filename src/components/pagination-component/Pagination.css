@@ -1,0 +1,42 @@
+.product-listing-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 64px 0 34px 0;
+}
+
+.product-listing-pagination section {
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-listing-pagination button {
+    width: 35px;
+    height: 35px;
+    border: 1px solid var(--white-color);
+    background: none;
+    transition: 0.2s ease-in-out;
+    color: var(--title-font-color);
+    border-radius: 4px;
+    font-size: var(--font-16px-size);
+    cursor: pointer;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-listing-pagination button:hover {
+    background: var(--additional-color);
+    color: var(--white-color);
+    border: none;
+    transition: 0.2s ease-in-out;
+}
+
+.product-listing-pagination button:focus {
+    border: none;
+    background: var(--additional-color);
+    color: var(--white-color);
+    transition: 0.2s ease-in-out;
+}

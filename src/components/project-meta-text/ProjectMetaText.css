@@ -1,0 +1,19 @@
+.project-meta-text-container {
+    display: flex;
+    border: 1px solid var(--white-color);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 680px;
+    flex-direction: column;
+    padding: 16px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-items: flex-start;
+    text-align: left;
+    color: var(--white-color);
+}
+
+.project-meta-text-container h1{
+    margin: 32px 0 32px 0;
+}

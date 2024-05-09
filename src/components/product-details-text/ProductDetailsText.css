@@ -1,0 +1,17 @@
+.product-details-container-text{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: var(--title-font-color);
+    width: 600px;
+    margin: 0 0 0 40px;
+}
+
+.product-details-container-text h3{
+    font-weight: lighter;
+}
+
+.product-details-container-text li{
+    margin: 10px 0 5px 5px;
+    font-weight: lighter;
+}
