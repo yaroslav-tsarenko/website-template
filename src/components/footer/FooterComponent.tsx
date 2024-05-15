@@ -18,33 +18,33 @@ const FooterComponent = () => {
                     <div className="footer-links-wrapper">
                         <section>
                             <h2>Resources</h2>
-                            <a href="#">Crypto Development</a>
-                            <a href="#">Our Servers</a>
-                            <a href="#">Our Products</a>
-                            <a href="#">User Strategy</a>
+                            <a href="/blogs">Crypto Development</a>
+                            <a href="/server-spaces">Our Servers</a>
+                            <a href="/server-spaces">Our Products</a>
+                            <a href="/terms-and-conditions">User Strategy</a>
                         </section>
                         <section>
                             <h2>Company</h2>
-                            <a href="#">About Coin Forge</a>
-                            <a href="#">Contact & Support</a>
-                            <a href="#">Success History</a>
-                            <a href="#">Setting & Privacy</a>
+                            <a href="/about-us-page">About Coin Forge</a>
+                            <a href="/contact">Contact & Support</a>
+                            <a href="/blog-page">Success History</a>
+                            <a href="/terms-and-conditions">Setting & Privacy</a>
                         </section>
                         <section>
                             <h2>Quick Links</h2>
-                            <a href="#">Home</a>
-                            <a href="#">Our Services</a>
-                            <a href="#">Blog</a>
-                            <a href="#">About Us</a>
+                            <a href="/">Home</a>
+                            <a href="/credit">Our Services</a>
+                            <a href="/blogs-listing-page">Blog</a>
+                            <a href="/about-us">About Us</a>
                         </section>
                     </div>
                 </div>
                 <hr/>
                 <div className="footer-bottom-section">
                         <section>
-                            <a href="#">Legal</a>
+                            <a href="/terms-and-conditions">Legal</a>
                             <a href="/privacy-policy">Privacy Policy</a>
-                            <a href="#">Cookies Policy</a>
+                            <a href="/refund-policy-page">Cookies Policy</a>
                         </section>
                         <section>
                             <FacebookIcon/>
